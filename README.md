@@ -11,7 +11,7 @@ Of note is a divergent in Feb, where success goes up and failure goes down.
 Spring/Early Summer Launches do better, many possible reasons may exist but further speculation is outside the scope of this analysis.
 
 For the 3rd Chart an illustration has been drawn from comparing Campaign Goal and amount Pledged.
-First of all Outliers have been shown via a Inter Quartile Bar and Whisker Chart.
+First of all Outliers have been shown via an Inter Quartile Bar and Whisker Chart.
 For this analysis(Great Britain/Musical) 75% of all campaigns total pledges were less than $1,500(successfull or not).
 This would suggest campaigns above this amount would have a slim chance of success.
 Above $3,000 success rate becomes negligible.
