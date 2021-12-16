@@ -1,9 +1,23 @@
 # An Analysis of Kickstarter Campaigns
 Use of Filters, PivotTables, and Charts(Including Standard Deviantion, and Interquartile Range)
-allow in depth summary of data and visulization of trends
+has provided an in depth summary of the kickstarter data and visulization of trends otherwise difficult
+to see.
 
+The first chart shows Failure/Success rate grouped by Category
+3 stand out; Film&video / Music / Theater
 
-Excell Crowd funing Analysis Chart
+The 2nd Chart was created to investigate wheather campaign launch date had any impact on its success rate
+There might be a trend indicated; showing high failure counts in Jan/Jul/Oct,
+and note-worthy success in May/June.  Of note is a divergent in Feb, where success goes up and failure goes down.
+Spring/Early Summer Launches do better, many possible reasons may exist and is outside the scope of this analysis.
+
+For the 3rd Chart a illustration has been drawn from comparing Campaign Goal and amount Pledged.
+First of all Outliers have been shown via a Inter Quartile Bar and Whisker Chart.
+For this analysis(Great Britain/Musical) 75% of all campaigns total pledges were less than $1,500(successfull or not)
+This would suggest campaigns above this amount would have a high chance of failing.
+Above $3,000 success rate becomes negligible.
+
+Excell Crowd funding Analysis Chart
 ![Excell Crowd funing Analysis Chart.png](Excell%20Crowd%20funing%20Analysis%20Chart.png)
 
 
