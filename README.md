@@ -1,28 +1,31 @@
-# An Analysis of Kickstarter Campaigns
-Use of Filters, PivotTables, and Charts(Including Standard Deviantion, and Interquartile Range)
-has provided an in depth summary of the kickstarter data and visulization of trends otherwise difficult
-to see.
 
-The first chart shows Failure/Success rate grouped by Category. Three stand out: Film and video / Music / Theater
-
-The 2nd Chart was created to investigate wheather campaign launch date had any impact on its success rate. 
-There might be a trend indicated: where high failure counts are shown in Jan/Jul/Oct, and note-worthy successes are in May/June.  
-Of note is a divergent in Feb, where success goes up and failure goes down.
-Spring/Early Summer Launches do better, many possible reasons may exist but further speculation is outside the scope of this analysis.
-
-For the 3rd Chart an illustration has been drawn from comparing Campaign Goal and amount Pledged.
-First of all Outliers have been shown via an Inter Quartile Bar and Whisker Chart.
-For this analysis(Great Britain/Musical) 75% of all campaigns total pledges were less than $1,500(successfull or not).
-This would suggest campaigns above this amount would have a slim chance of success.
-Above $3,000 success rate becomes negligible.
-
-Excell Crowd funding Analysis Chart
-![Excell Crowd funing Analysis Chart.png](Excell%20Crowd%20funing%20Analysis%20Chart.png)
+Kickstarter Analysis
 
 
-Outcomes Based on Launch Date
-![Outcomes Based on Launch Date.png](Outcomes%20Based%20on%20Launch%20Date.png)
+  This analysis is built to try an answer two questions. Does campaign launch month affect success rate, and does the campaign goal amount affect success rate.
+ A neccessary step in getting the data ready for analysis was converting the deadline and launched_at dates to a useable format.
 
+<img>
+as you can see this challenge was overcome simply with 
+the formula " =(((J2/60)/60)/24)+DATE(1970,1,1) ".
 
-IQR Bar and Whisker Chart
-![IQR Bar and Whisker Chart.png](IQR%20Bar%20and%20Whisker%20Chart.png)
+A custom range enumeration was built 
+<img>
+
+using a concatination like ' =A4&" "&B4&" "&C4 '.
+If a different range enumeration is needed, it can be customized easily with the formulas.
+With the preparation complete the analysis can begin.
+
+  The following chart shows Theater Outcomes by Launch Date
+<img> chart 1
+From the following chart we can see a indication launch date has an effect on campaign success, with 
+large numbers of campaigns succedding in May/June/Jul. Additionally avoiding launch months in Nov/Dec seems to be indicated.
+
+  Our 2nd chart shows Outcomes Based on Goals
+<img> chart 2
+
+From the 2nd chart, we can draw a conlcusion that Goal amount has some affect on succes rate. Campaigns over $45,000 seem to be less likely to succeed, while campaigns asking $5,000 or less seem to be more successfull.
+
+ Limitations is this dataset may include, how much the campaign was advertised, and how widespread/how many people were given the choice to contribute.  These metrics wern't collected, and could have a large impact on success rate.
+
+ Additional time could be invested to create an analysis base on how long the campaign ran, and how that affected success rate.
